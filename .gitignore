@@ -1,5 +1,8 @@
+*.idb
 *.ilk
 *.log
+*.obj
 *.pdb
 *.sdf
 *.suo
+*.tlog
