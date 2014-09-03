@@ -12,7 +12,7 @@
 #include <iostream>     // Needed for cout, endl, and system()
 
 // Entry point for the program - here is where execution begins!
-int main(void) {
+int main() {
     // Variable declarations
     int area;
     int length, width;

@@ -11,7 +11,7 @@
 #include <iostream>     // Needed for cout, cin, endl, and system()
 
 // Entry point for the program - here is where execution begins!
-int main(int argc, char** argv) {
+int main() {
     // Variable declarations
     double area;
     double length, width;
