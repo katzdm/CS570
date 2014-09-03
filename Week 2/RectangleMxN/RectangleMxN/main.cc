@@ -1,3 +1,12 @@
+/*
+* Daniel M. Katz
+* CS 570C
+* RectangleMxN
+*
+* Prompts the user for a two numbers that represent a length and width,
+* then computes the area of the rectangle with the given dimensions.
+*/
+
 // Standard C/C++ Headers
 #include <iostream>     // Needed for cout, cin, endl, and system()
 

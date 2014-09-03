@@ -1,4 +1,6 @@
 /*
+ * Daniel M. Katz
+ * CS 570C
  * RectangleFromFile
  *
  * Prompts the user for a file, reads two numbers from it that represent a

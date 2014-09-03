@@ -1,3 +1,13 @@
+/*
+* Daniel M. Katz
+* CS 570C
+* Rectangle12x6
+*
+* Computes the area of a 12x6 rectangle...Fairly useless in practice,
+* but not a bad first program to start the course with!
+* 
+*/
+
 // Standard C/C++ Headers
 #include <iostream>     // Needed for cout, endl, and system()
 
