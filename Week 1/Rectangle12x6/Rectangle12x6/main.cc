@@ -6,6 +6,7 @@
 * Computes the area of a 12x6 rectangle...Fairly useless in practice,
 * but not a bad first program to start the course with!
 * Just try to use github 
+* Just try to use github
 */
 
 // Standard C/C++ Headers
