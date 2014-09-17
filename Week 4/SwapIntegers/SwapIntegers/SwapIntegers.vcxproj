@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FC0E392C-9899-40BC-A82B-933B11AFE60A}</ProjectGuid>
-    <RootNamespace>RectangleMxN</RootNamespace>
-    <ProjectName>RectangleMxN</ProjectName>
+    <ProjectGuid>{22D109EF-A6CD-46C3-8B71-515D1FBF7AA9}</ProjectGuid>
+    <RootNamespace>SwapIntegers</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
