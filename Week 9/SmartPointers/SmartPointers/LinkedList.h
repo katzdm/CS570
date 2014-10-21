@@ -1,10 +1,13 @@
 #ifndef _LINKED_LIST_H_
 #define _LINKED_LIST_H_
 
+// Standard C/C++ Headers
+#include <memory>
+
 template <typename T>
 class ListNode {
   T value_;  // Value held in this node.
-  ListNode* next_;  // Pointer to next node.
+  std::shared_ptr<ListNode<T>> next_;  // Pointer to next node.
 
 public:
   // Constructor: Takes initial node value as an argument.
@@ -13,19 +16,11 @@ public:
     this->next_ = nullptr;
   }
 
-  // Destructor: Deallocates all nodes following this one,
-  // to ensure that all nodes are deleted.
-  ~ListNode() {
-    if (!this->IsTail()) {
-      delete this->next_;
-    }
-  }
-
   ListNode& SetNext(const T& value) {
     if (this->next_ != nullptr) {
-      this->next_->value = value;
+      this->next_->value_ = value;
     } else {
-      this->next_ = new ListNode<T>(value);
+      this->next_.reset(new ListNode<T>(value));
     }
     return *this->next_;
   }
