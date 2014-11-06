@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cc" />
+    <ClCompile Include="EmployeeRole.cc" />
+    <ClCompile Include="Range.cc" />
+    <ClCompile Include="Employee.cc" />
+    <ClCompile Include="Manager.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="EmployeeRole.h" />
+    <ClInclude Include="Range.h" />
+    <ClInclude Include="Manager.h" />
+  </ItemGroup>
+</Project>
