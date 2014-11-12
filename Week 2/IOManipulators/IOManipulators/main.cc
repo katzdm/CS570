@@ -33,9 +33,12 @@ int main() {
     std::cout << "Zero: " << 0.0 << std::endl;
 
     // Output 0 again, this time without the ios flags set.
+	double test = 0.0;
+	std::cout << "Before: " << test << std::endl;
     std::cout << std::resetiosflags(std::ios::fixed | std::ios::showpoint);
     std::cout << "Zero: " << 0.0 << std::endl;
-
+	std::cout << "After: " << test << std::endl;
+    
     system("pause");
     return 0;   // Return 0 to indicate that no error occurred.
 }
